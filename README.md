@@ -1,8 +1,14 @@
-created csv file for emloyees management system 
-this system allow any number of employees 
-using python programming language
-this project contain menu list that get the user options to (Add, Update, Delete, Search, List, Exit), csv file can read and write data and error handling that ensures from the user input in each step
-with each employee added it created a new csv file that contain the data and there is an option to list all the employee and display all
-and saving data in formal way
-using oop (classes)
-with error handling in each step it also can validate email if the entered email correct or not valid
+Employee Management System 
+this program created using python programming language
+that allows users to manage csv file
+-Classes:
+Employee: Represents an individual employee with attributes: ID, name, position, salary, and email.
+EmployeeManager: Manages the employee records. Key methods include:
+load_or_create_csv(),add_emp(),update_data(),del_data(),search_data(),list_all_emp(),is_valid_email()
+-CSV file handling
+ CSV file (employees.csv) if it is missing create new one
+-User Input:
+menu with options to Add, Update, Delete, Search, List (with colored output using colorama library)
+email validation
+
+
